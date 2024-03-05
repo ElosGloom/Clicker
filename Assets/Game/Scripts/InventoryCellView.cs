@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace Game.Scripts
 {
+    /// <summary>
+    /// Отображает количество предметов в инвентаре. 
+    /// </summary>
     public class InventoryCellView : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI itemCounterText;

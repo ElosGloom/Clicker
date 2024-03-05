@@ -2,6 +2,9 @@
 
 namespace Game.Scripts
 {
+    /// <summary>
+    /// Следит за изменением инвентаря. Управляет клетками.
+    /// </summary>
     public class InventoryView : MonoBehaviour
     {
         [SerializeField] private SerializableDictionary<string, InventoryCellView> cellViews;
